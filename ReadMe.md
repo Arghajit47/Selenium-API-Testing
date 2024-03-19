@@ -1,0 +1,1 @@
+### To setup this project, one need to create ./responses folder to store the json responses of the API testing.
