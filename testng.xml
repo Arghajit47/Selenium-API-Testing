@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="API_Testing">
+        <classes>
+            <class name="APITesting">
+                <methods>
+                    <include name="listUsers" />
+                    <include name="singleUsers" />
+                    <include name="userNotFound" />
+                    <include name="listResource" />
+                    <include name="singleResource" />
+                    <include name="singleResourceNotFound" />
+                    <include name="userAction" />
+                    <include name="successfulRegister" />
+                    <include name="unsuccessfulRegister" />
+                    <include name="unsuccessfulLogin" />
+                    <include name="delayedResponse" />
+                </methods>
+            </class>
+            <class name="Login">
+                <methods>
+                    <include name="successfulLogin" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
